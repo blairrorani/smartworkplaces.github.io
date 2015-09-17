@@ -2,22 +2,8 @@
 layout: default
 ---
 
-{% include what-is-this.html %}
+<h1>Smart Workplaces</h1>
 
-<div class="posts">
-  {% for post in site.posts limit:1 %}
-  <article class="post">
+<p class="u-c-txt">We're taking everything that makes homes <em>smart</em> and applying that to your workplace to make work easier, safer, and more enjoyable.</p>
 
-    <h1><a href="{{ post.url }}">{{ post.title | replace: '-', '-'}}</a></h1>
-    {% include author.html%}
-    <div class="entry">
-      {{ post.content }}
-    </div>
-
-  </article>
-  {% endfor %}
-</div>
-
-<div class="row older-newer">
-<p><a href="all-posts">Read more posts like this</a></p>
-</div>
+<p class="u-c-txt"><a class="button button-primary" href="blair@rorani.com">Email a human about this</a></p>
