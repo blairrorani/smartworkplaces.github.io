@@ -87,14 +87,14 @@ li {
 /* links */
 a:link, a:visited, a:active {
   text-decoration: none;
-  border-bottom: 1px solid #fff;
-  color: #e74c3c;
+  border-bottom: 1px solid #9b59b6;
+  color: #fff !important;
 }
 
 a:hover {
-  background: #fff;
+  background: #9b59b6;
   border: none;
-  color: #e74c3c;
+  color: #fff !important;
 }
   a.site-avatar:hover {
     background: none;
